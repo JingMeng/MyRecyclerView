@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--<com.sinieco.easyswipemenulibrary.EasySwipeMenuLayout-->
+        <!--android:id="@+id/es"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:contentView="@+id/e_content"-->
+        <!--app:leftMenuView="@+id/e_left"-->
+        <!--app:rightMenuView="@+id/e_right">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/e_left"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/holo_blue_dark"-->
+
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="20dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="分享" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/e_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#cccccc"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="20dp">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_content"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="内容区域" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/e_right"-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/holo_red_light"-->
+            <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/holo_blue_bright"-->
+            <!--android:padding="20dp"-->
+            <!--android:text="删除" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/right_menu_2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/holo_orange_dark"-->
+            <!--android:padding="20dp"-->
+            <!--android:text="收藏" />-->
+        <!--</LinearLayout>-->
+    <!--</com.sinieco.easyswipemenulibrary.EasySwipeMenuLayout>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_item_classify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
